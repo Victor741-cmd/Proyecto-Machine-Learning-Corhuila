@@ -22,16 +22,13 @@ Develop a machine learning model using ML techniques to analyze the performance 
 
 ## 2) Repositorios y Enlaces
 - **Repositorio principal (mono/meta):** `[enlace]`
-- **Frontend:** `[enlace]`
-- **Backend(s)/Microservicios:**  
-  - Servicio A: `[enlace]`  
-  - Servicio B: `[enlace]`
-- **Infra as Code (IaC):** `[enlace]`
-- **Modelos/Data/ETL:** `[enlace]`
-- **Documentación viva (Docs):** `[enlace]`
-- **Diseño (Figma/Miro):** `[enlace]`
-- **Drive/Knowledge Base:** `[enlace]`
-- **Tablero (Jira/Trello/GitHub Projects):** `[enlace]`
+- **Frontend:**  
+  For Frontend deployment, please refer to the corresponding repository: [analisis-academico-frontend](https://github.com/Victor741-cmd/analisis-academico-frontend)
+
+- **Backend:**  
+  For Backend deployment, please refer to the corresponding repository: [analisis-academico-backend](https://github.com/Victor741-cmd/analisis-academico-backend)
+
+
 
 > **Regla:** cada repo debe tener su propio `README.md` con: propósito, cómo correr local, variables de entorno, tests y pipeline.
 
