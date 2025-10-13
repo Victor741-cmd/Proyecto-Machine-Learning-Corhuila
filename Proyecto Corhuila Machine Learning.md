@@ -35,11 +35,12 @@ Develop a machine learning model using ML techniques to analyze the performance 
 ---
 
 ## 3) Arquitectura (Vista Rápida)
-- **Estilo:** monolito / microservicios / eventos / serverless / híbrido.  
-- **Front:** framework / gestor de estado / librería UI.  
-- **Back:** lenguaje / framework / API (REST/GraphQL/gRPC).  
-- **BD:** PostgreSQL/MySQL/NoSQL + estrategia de migraciones.  
-- **Mensajería/Jobs:** Kafka/Rabbit/SQS/CRON.  
-- **Observabilidad:** logs, métricas, trazas (ELK/Prom/Grafana).  
-- **Seguridad:** OAuth2/OIDC, JWT, API Keys, WAF.  
-- **Gateway:** API-Gateway/BFF, rate limit, CORS, circuit breaker.
+- **Style:** Lightweight monolith (SPA frontend + single API). Simple deploys, fewer moving parts
+- **Front:** React + Vite; local state (→ Zustand/RTK if needed); UI: Tailwind or MUI.  
+- **Back:** Python + FastAPI; REST API.
+- **DB:** Now Excel/SQLite; move to PostgreSQL + Alembic.  
+- **Messaging/Jobs:** CRON/APScheduler now; Celery + RabbitMQ/SQS later.
+- **Observability:** Logs to stdout; Prometheus metrics; Grafana; (OTel optional). 
+- **Security:** Restrictive CORS; JWT / API Keys; WAF when public.
+- **Gateway:** Nginx reverse proxy; basic rate limit; (future: API Gateway/BFF).
+
