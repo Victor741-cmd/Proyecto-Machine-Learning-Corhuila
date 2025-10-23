@@ -16,12 +16,11 @@ Develop a machine learning model using ML techniques to analyze the performance 
 - **O2.** Identify best practices used by students with the highest performance in the critical reading competence.
 - **03.** Develop a machine learning model that predicts the performance in the critical reading competence of engineering students at Corhuila University.
 
-- **Métricas (KPI):** % disponibilidad, tiempo de respuesta, NPS, etc.
 
 ---
 
-## 2) Repositorios y Enlaces
-- **Repositorio principal (mono/meta):** `[enlace]`
+## 2) Repositories and Links
+- **Main Repository:** `[enlace]`
 - **Frontend:**  
   For Frontend deployment, please refer to the corresponding repository: [analisis-academico-frontend](https://github.com/Victor741-cmd/analisis-academico-frontend)
 
@@ -29,12 +28,9 @@ Develop a machine learning model using ML techniques to analyze the performance 
   For Backend deployment, please refer to the corresponding repository: [analisis-academico-backend](https://github.com/Victor741-cmd/analisis-academico-backend)
 
 
-
-> **Regla:** cada repo debe tener su propio `README.md` con: propósito, cómo correr local, variables de entorno, tests y pipeline.
-
 ---
 
-## 3) Arquitectura (Vista Rápida)
+## 3) Architecture (Quick View)
 - **Style:** Lightweight monolith (SPA frontend + single API). Simple deploys, fewer moving parts
 - **Front:** React + Vite; local state (→ Zustand/RTK if needed); UI: Tailwind or MUI.  
 - **Back:** Python + FastAPI; REST API.
